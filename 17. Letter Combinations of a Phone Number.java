@@ -3,7 +3,7 @@ class Solution {
          if (digits.isEmpty()) return Collections.emptyList();
  
          String[] phone_map = {"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-         List<String> output = new ArrayList<>();
+         List<String> output = new ArrayList<>();                    // backtracking with recursion
          backtrack("", digits, phone_map, output);
          return output;
      }
