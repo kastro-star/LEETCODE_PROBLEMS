@@ -6,7 +6,7 @@ class Solution {
           if(vowelcount(arr[i]) == size){
               String reversed = new StringBuilder(arr[i]).reverse().toString();
               arr[i] = reversed;
-          }
+          }//
       }
       String d = String.join(" ",arr);
       return d;
