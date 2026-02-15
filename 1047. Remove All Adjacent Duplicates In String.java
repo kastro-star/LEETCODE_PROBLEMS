@@ -1,6 +1,8 @@
 class Solution {
   public String removeDuplicates(String s) {
       StringBuilder kast = new StringBuilder();
+
+    
       Stack<Character> kas = new Stack<>();
       for(int i=0;i<s.length();i++){
           if(!kas.empty()){
@@ -19,7 +21,7 @@ class Solution {
           kast.append(kas.pop());
       }
       kast.reverse();
-      String h = kast.toString();
-      return h;
+      String k = kast.toString();
+      return k;
   }
 }
