@@ -1,6 +1,6 @@
 class Solution {
   public String sortString(String s) {
-      int[] kas = new int[26];
+      int[] kass = new int[26];
       StringBuilder kast = new StringBuilder();
       for(int i =0;i<s.length();i++){
           int temp = s.charAt(i) - 'a';
